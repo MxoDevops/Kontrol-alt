@@ -294,7 +294,7 @@ body {
     margin-top: 10px;
   }
 
-  h6 {
+  .mobile-footer h5 {
     font-size: 16px;
     font-family: 'lato', sans-serif;
     color: #f2f3f5;
@@ -758,7 +758,7 @@ body {
     margin-bottom: 50px;
   }
 
-  h6 {
+  .desktop-footer h5 {
     color: #cacbce;
     margin-top: 10px;
     font-size: 17px;
