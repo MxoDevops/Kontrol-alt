@@ -10,14 +10,21 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-  <body>
+  <body id="home">
     <div class="image">
       <header>
-        <nav>
+        <div class="page-heading">
+          <i class="fa fa-facebook-f"></i>
+          <i class="fa fa-twitter"></i>
+          <span class="heading-label">English</span>
+          <span class="heading-label">My Page</span>
+          <span class="heading-label">Logout</span>
+        </div>
+        <nav class="nav">
           <div class="nav-menu">
             <ul class="nav-items">
               <li class="nav-item">
-                <a href="#about.html" class="nav-link">About</a>
+                <a href="about.html" class="nav-link">About</a>
               </li>
               <li class="nav-item">
                 <a href="#program" class="nav-link">Program</a>
@@ -26,25 +33,30 @@
                 <a href="#join" class="nav-link">Join</a>
               </li>
               <li class="nav-item">
-                <a href="#News" class="nav-link">News</a>
-              </li>
-              <li class="nav-item">
-                <a href="#campaign" class="nav-link">CC Campaign</a>
+                <a href="#speakers" class="nav-link">Speakers</a>
               </li>
             </ul>
+
+            <span class="nav-item-border" class="campaign">
+              <a href="#campaign" class="nav-link">Campaign</a>
+            </span>
             <div class="nav-toggle">
               <span class="barz"></span>
               <span class="barz"></span>
               <span class="barz"></span>
             </div>
           </div>
+          <a href="#home"><img alt="" class="logo" src="logos/+logos.png" /></a>
         </nav>
       </header>
 
       <section class="homepage">
         <div class="content">
           <h1>"Hello, programmers!"</h1>
-          <h2>Blockchain Development Hackathon Event</h2>
+          <h2>
+            Soft<span class="gradient">ware Deve</span>lopment <br />Hackathon
+            Event
+          </h2>
           <p class="intro">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. A nam,
             iusto distinctio atque eveniet sed necessitatibus doloremque
@@ -55,72 +67,88 @@
         </div>
       </section>
     </div>
-    <section class="main-program">
-      <h3>Main Program</h3>
-      <hr />
-
-      <div class="cards">
-        <div><i class="fa fa-suitcase fa-2x"></i></div>
-        <h4>Introductions</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-          dolore nesciunt mollitia sint nulla impedit minima laboriosam qui
-          dolor veritatis!
-        </p>
+    <section id="program">
+      <div class="desktop">
+        <h3>Main Program</h3>
+        <hr class="main-line" />
       </div>
+      <div class="main-program">
+        <div class="mobile">
+          <h3>Main Program</h3>
+        </div>
+        <div class="cards">
+          <div><i class="fa fa-comment fa-2x"></i></div>
+          <h4>Introductions</h4>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            dolore nesciunt mollitia sint nulla impedit minima laboriosam qui
+            dolor veritatis!
+          </p>
+        </div>
 
-      <div class="cards">
-        <div><i class="fa fa-window-maximize fa-2x"></i></div>
-        <h4>Presentations</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt
-          porro rerum delectus tenetur eos possimus nemo neque impedit.
-          Reprehenderit!
-        </p>
-      </div>
+        <div class="cards">
+          <div><i class="fa fa-comment fa-2x"></i></div>
+          <h4>Presentations</h4>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            incidunt porro rerum delectus tenetur eos possimus nemo neque
+            impedit. Reprehenderit!
+          </p>
+        </div>
 
-      <div class="cards">
-        <div><i class="fa fa-comment fa-2x"></i></div>
-        <h4>Discussions & Ideas</h4>
-        <br />
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
-          molestiae voluptatum porro aliquid iure atque pariatur consequatur
-          facilis, doloremque laborum!
-        </p>
-      </div>
+        <div class="cards">
+          <div><i class="fa fa-comment fa-2x"></i></div>
+          <h4>Discussions & Ideas</h4>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            dolore nesciunt mollitia sint nulla impedit minima laboriosam qui
+            dolor veritatis
+          </p>
+        </div>
 
-      <div class="cards">
-        <div><i class="fa fa-archive fa-2x"></i></div>
-        <h4>Pitches & Feedback</h4>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
-          at. Inventore cum porro tenetur non animi natus, consequuntur nostrum?
-          Assumenda?
-        </p>
-      </div>
+        <div class="cards">
+          <div><i class="fa fa-archive fa-2x"></i></div>
+          <h4>Pitches & Feedback</h4>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis, at. Inventore cum porro tenetur non animi natus,
+            consequuntur nostrum? Assumenda?
+          </p>
+        </div>
 
-      <div class="cards">
-        <div><i class="fa fa-hourglass-end fa-2x"></i></div>
-        <h4>Conclusion</h4>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel magni
-          tempore non ipsa, laborum debitis. Quisquam, tenetur? Sequi, ipsam
-          modi.
-        </p>
+        <div class="cards">
+          <div><i class="fa fa-hourglass-end fa-2x"></i></div>
+          <h4>Conclusion</h4>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel magni
+            tempore non ipsa, laborum debitis. Quisquam, tenetur? Sequi, ipsam
+            modi.
+          </p>
+        </div>
+
+        <div class="card mobile-card">
+          <div class="register" id="join">
+            <a href="">Register for our 2022 Hackathon!</a>
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <p class="register">Register for our 2022 Hackathon!</p>
+      <div class="card desktop-card">
+        <div class="register" id="join">
+          <a href="">Register for our 2022 Hackathon!</a>
+        </div>
       </div>
     </section>
 
-    <section class="speakers">
+    <section class="speakers" id="speakers">
+      <div class="h7">
+        <span class="heading-speaker">Featured Speakers</span>
+      </div>
       <div class="featured-speakers">
-        <h5>Featured Speakers</h5>
-        <hr />
-
         <div class="speaker-info">
           <img
             class="speaker-img"
@@ -128,7 +156,7 @@
             src="images/merlin_172182855_00e3e9db-4891-42c4-8cde-b9a60edd582f-mobileMasterAt3x.jpg"
           />
           <div class="info-1">
-            <span class="name">Tom Bulos</span>
+            <span class="name">Tom Bray</span>
             <br />
             <span class="info-subheading">
               software developer,co-author of the original XML specification
@@ -143,86 +171,67 @@
           </div>
         </div>
         <div class="speaker-info">
-          <img
-            class="speaker-img"
-            alt=""
-            src="images/merlin_172182855_00e3e9db-4891-42c4-8cde-b9a60edd582f-mobileMasterAt3x.jpg"
-          />
+          <img class="speaker-img" alt="" src="images/daneil.jpg" />
           <div class="info-1">
-            <span class="name">Tom Bulos</span>
+            <span class="name">Daniel Ek</span>
             <br />
             <span class="info-subheading">
-              software developer,co-author of the original XML specification
+              software developer, entrepreneur
             </span>
             <hr />
             <br />
 
             <p class="speaker-work">
-              He worked for Amazon Web Services from December 2014 until May
-              2020 when he quit due to concerns.
+              Swedish billionaire entrepreneur and technologist. He is the
+              co-founder and CEO of music streaming service Spotify
             </p>
           </div>
         </div>
         <div class="speaker-info">
-          <img
-            class="speaker-img"
-            alt=""
-            src="images/merlin_172182855_00e3e9db-4891-42c4-8cde-b9a60edd582f-mobileMasterAt3x.jpg"
-          />
+          <img class="speaker-img" alt="" src="images/Buchheit.jpg" />
           <div class="info-1">
-            <span class="name">Tom Bulos</span>
+            <span class="name">Paul Buchheit</span>
             <br />
-            <span class="info-subheading">
-              software developer,co-author of the original XML specification
-            </span>
+            <span class="info-subheading"> software engineer </span>
             <hr />
             <br />
 
             <p class="speaker-work">
-              He worked for Amazon Web Services from December 2014 until May
-              2020 when he quit due to concerns..
+              He developed the original prototype of Google AdSense as part of
+              his work on Gmail
             </p>
           </div>
         </div>
         <div class="speaker-info">
-          <img
-            class="speaker-img"
-            alt=""
-            src="images/merlin_172182855_00e3e9db-4891-42c4-8cde-b9a60edd582f-mobileMasterAt3x.jpg"
-          />
+          <img class="speaker-img" alt="" src="images/max-lechvin.jpeg" />
           <div class="info-1">
-            <span class="name">Tom Bulos</span>
+            <span class="name">Max Lechvin</span>
             <br />
             <span class="info-subheading">
-              software developer,co-author of the original XML specification
+              software developer, entrepreneur.
             </span>
             <hr />
             <br />
 
             <p class="speaker-work">
-              He worked for Amazon Web Services from December 2014 until May
-              2020 when he quit due to concerns.
+              Ukrainian-American software engineer and businessman. In 1998, he
+              co-founded the company that eventually became PayPal.
             </p>
           </div>
         </div>
-        <div class="speaker-info">
-          <img
-            class="speaker-img"
-            alt=""
-            src="images/merlin_172182855_00e3e9db-4891-42c4-8cde-b9a60edd582f-mobileMasterAt3x.jpg"
-          />
+        <div class="speaker-info margin">
+          <img class="speaker-img" alt="" src="images/cutleronxbox.png" />
           <div class="info-1">
-            <span class="name">Tom Bulos</span>
+            <span class="name">Dave Cutler</span>
             <br />
-            <span class="info-subheading">
-              software developer,co-author of the original XML specification
-            </span>
+            <span class="info-subheading"> software developer. </span>
             <hr />
             <br />
 
             <p class="speaker-work">
-              He worked for Amazon Web Services from December 2014 until May
-              2020 when he quit due to concerns.
+              He developed several computer operating systems, namely
+              Microsoft's Windows NT, and Digital Equipment Corporation's
+              RSX-11M, VAXELN, and VMS
             </p>
           </div>
         </div>
@@ -230,20 +239,26 @@
     </section>
 
     <section>
-      <div class="partners">
+      <div class="desktop-footer">
         <h6>Partners</h6>
-        <hr />
+        <hr class="line-partners" />
+      </div>
+      <div class="partners">
+        <div class="mobile-footer">
+          <h6>Partners</h6>
+        </div>
         <img
           class="fnb"
           alt=""
           src="images/12f2e1f1-0722-4824-8192-98bef781ce68.jpg"
         />
         <img class="fnb" alt="" src="images/huawei.jpg" />
+        <img class="fnb" alt="" src="images/640px-FreeCodeCamp_logo.png" />
       </div>
     </section>
 
     <footer>
-      <div class="footer">
+      <div class="footer" id="campaign">
         <img
           alt=""
           class="footer-logo"
@@ -256,5 +271,6 @@
         </p>
       </div>
     </footer>
+    <script src="javascript/index.js"></script>
   </body>
 </html>
