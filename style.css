@@ -9,6 +9,9 @@
 
 body {
   font-family: 'cocogoose', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -63,21 +66,8 @@ body {
     margin-left: 10px;
   }
 
-  .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 70px;
-    margin-left: 10px;
-    margin-bottom: 100px;
-  }
-
   h1 {
     font-family: 'Lato', sans-serif;
-    color: rgba(255, 166, 1, 0.979);
-  }
-
-  .gradient {
     color: rgba(255, 166, 1, 0.979);
   }
 
@@ -108,7 +98,7 @@ body {
 
   .intro3 {
     font-family: 'Lato', sans-serif;
-    width: 340px;
+    width: px;
     height: 130px;
     font-size: 13px;
     text-align: center;
@@ -463,6 +453,7 @@ body {
     box-shadow: 0 5px 0 0 #fff;
     top: 0;
     background-color: rgb(255, 255, 255);
+    z-index: 9;
   }
 
   .image {
@@ -493,6 +484,7 @@ body {
     font-size: 17px;
     font-family: 'lato', sans-serif;
   }
+
   .nav-items li a:hover {
     color: rgb(255, 166, 0);
   }
@@ -538,13 +530,14 @@ body {
 
   h1 {
     font-family: 'Lato', sans-serif;
-    color: rgba(255, 166, 1, 0.979);
+    color: #ec5242;
     font-size: 40px;
     margin-top: 90px;
+    font-weight: 200;
   }
 
   h2 {
-    color: salmon;
+    color: #ec5242;
     font-size: 50px;
   }
 
@@ -606,6 +599,7 @@ body {
     top: 140px;
     font-family: 'lato', sans-serif;
   }
+
   hr {
     color: salmon;
     width: 20px;
@@ -776,6 +770,7 @@ body {
     color: orange;
     margin: auto;
   }
+
   .footer {
     display: flex;
     flex-direction: row;
