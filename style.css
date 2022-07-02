@@ -381,12 +381,12 @@ body {
 
   .nav-toggle.active .barz:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
-    background-color: #ec4252;
+    background-color: #f0efef;
   }
 
   .nav-toggle.active .barz:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
-    background-color: #ec5242;
+    background-color: #e2e2e2;
   }
 
   .nav-items {
