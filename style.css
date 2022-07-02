@@ -496,6 +496,15 @@ body {
     z-index: 9;
   }
 
+  .register a {
+    color: #fff;
+  }
+
+  .nav-item-border a {
+    text-decoration: none;
+    color: #333;
+  }
+
   .nav-items li a {
     margin-left: 200px;
   }
@@ -512,7 +521,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: right;
-    align-items: right;
     gap: 50px;
     position: absolute;
     right: 20%;
@@ -525,15 +533,6 @@ body {
     font-size: 17px;
     font-family: 'lato', sans-serif;
     padding-bottom: 24px;
-  }
-
-  .register a {
-    color: #fff;
-  }
-
-  .nav-item-border a {
-    text-decoration: none;
-    color: #333;
   }
 
   .nav-menu li a {
