@@ -12,6 +12,8 @@
 
 [Live Demo Link](https://mxodevops.github.io/Kontrol-alt/)
 
+- Live Explination of this projects https://www.loom.com/share/aaf051d940244ae0aa491d89659c47ce
+
 ## Getting Started
 
 To copy this project please do the following.
