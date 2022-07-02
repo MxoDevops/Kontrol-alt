@@ -1,3 +1,5 @@
+const demo = document.getElementById('featured-speakers');
+
 const arrProject = [
   {
     image:
@@ -41,7 +43,6 @@ const arrProject = [
   },
 ];
 
-const demo = document.getElementById('featured-speakers');
 function addProjects(n) {
   const { name, devInfo, description, image } = arrProject[n];
 
