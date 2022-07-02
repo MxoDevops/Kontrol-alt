@@ -2,15 +2,15 @@
 
 # KONTROL+ alt Hackathon
 
-> Description the project.
+> Kontrol Alt conference website.
 
 ## Built With
 
 - HTML, CSS AND JAVASCRIPT
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mxodevops.github.io/Kontrol-alt/)
 
 ## Getting Started
 
