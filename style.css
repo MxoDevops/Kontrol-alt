@@ -329,19 +329,11 @@ body {
   }
 
   .image-1 {
-    background: linear-gradient(
-        rgba(248, 150, 3, 0.747),
-        rgba(253, 136, 2, 0.616)
-      ),
-      url('images/download.jpg');
+    background-image: url('images/download.jpg');
   }
 
   .image-2 {
-    background: linear-gradient(
-        rgba(248, 150, 3, 0.616),
-        rgba(253, 136, 2, 0.562)
-      ),
-      url('images/conference.jpg') center;
+    background-image: url('images/conference.jpg') center;
     background-repeat: no-repeat;
   }
 
@@ -797,12 +789,7 @@ body {
   }
 
   .image-2 {
-    background: linear-gradient(
-        rgba(248, 150, 3, 0.616),
-        rgba(253, 136, 2, 0.562)
-      ),
-      url('images/conference.jpg') center;
-    background-repeat: no-repeat;
+    background-image: url('images/download.jpg');
   }
 
   .h4 {
