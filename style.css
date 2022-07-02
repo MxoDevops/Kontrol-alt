@@ -450,9 +450,6 @@ body {
     justify-content: center;
     align-items: flex-end;
     gap: 70px;
-  }
-
-  .nav-items {
     position: absolute;
     right: 30%;
     top: 50px;
@@ -469,13 +466,18 @@ body {
     color: #fff;
   }
 
-  .nav-items li a:hover {
-    color: rgb(255, 166, 0);
+  .nav-item-border a {
+    text-decoration: none;
+    color: #333;
   }
 
   .nav-items li a {
     text-decoration: none;
     color: #333;
+  }
+
+  .nav-items li a:hover {
+    color: rgb(255, 166, 0);
   }
 
   .nav-item-border {
@@ -489,11 +491,6 @@ body {
     font-size: 17px;
     font-family: 'lato', sans-serif;
     padding-top: 10px;
-  }
-
-  .nav-item-border a {
-    text-decoration: none;
-    color: #333;
   }
 
   .content {
