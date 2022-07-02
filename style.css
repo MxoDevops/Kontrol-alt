@@ -130,13 +130,7 @@ body {
     align-items: center;
     gap: 30px;
     margin-top: 10px;
-    background-color: #333;
-    background: url('images/pexels-adrien-olichon-2387793.jpg') no-repeat center
-      center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: rgb(0, 0, 0);
   }
 
   h3 {
@@ -252,7 +246,7 @@ body {
   .speaker-work {
     font-size: 9px;
     font-weight: 400;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     color: #5e6c84;
   }
 
@@ -296,7 +290,7 @@ body {
   }
 
   .footer p {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 13px;
     color: #5e6c84;
   }
@@ -361,7 +355,7 @@ body {
   .container1 p {
     position: relative;
     top: 80px;
-    font-family: 'lato';
+    font-family: 'lato', sans-serif;
     color: #fff;
     font-weight: 400;
     font-size: 20px;
@@ -372,7 +366,7 @@ body {
     color: #5e6c84;
     margin-top: 20px;
     text-align: center;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
   }
 
@@ -566,15 +560,6 @@ body {
     background-color: #333;
   }
 
-  .main-program {
-    background: url('images/pexels-adrien-olichon-2387793.jpg') no-repeat center
-      center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
   h3 {
     color: white;
     font-family: 'lato', sans-serif;
@@ -705,7 +690,7 @@ body {
   .speaker-work {
     font-size: 10px;
     font-weight: 600;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     color: #5e6c84;
   }
 
@@ -746,7 +731,7 @@ body {
     text-align: center;
     position: relative;
     top: 50px;
-    font-family: 'lato';
+    font-family: 'lato', sans-serif;
   }
 
   .line-partners {
@@ -775,7 +760,7 @@ body {
   }
 
   .footer p {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 19px;
     color: #5e6c84;
   }
@@ -840,7 +825,7 @@ body {
   .container1 p {
     position: relative;
     top: 80px;
-    font-family: 'lato';
+    font-family: 'lato', sans-serif;
     color: #fff;
     font-weight: 400;
     font-size: 20px;
@@ -851,7 +836,7 @@ body {
     color: #5e6c84;
     margin-top: 20px;
     text-align: center;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
   }
 
