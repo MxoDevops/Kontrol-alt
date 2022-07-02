@@ -2,7 +2,7 @@
 
 # KONTROL+ alt Hackathon
 
-> Description the project.
+> Kontrol Alt conference website.
 
 ## Built With
 
@@ -10,7 +10,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mxodevops.github.io/Kontrol-alt/)
 
 ## Getting Started
 
