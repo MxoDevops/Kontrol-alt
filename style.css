@@ -56,10 +56,6 @@ body {
     background-size: cover;
   }
 
-  .nav-items {
-    display: none;
-  }
-
   .content {
     display: flex;
     flex-direction: column;
@@ -378,6 +374,60 @@ body {
   .fa-comment {
     margin-left: 10px;
   }
+
+  .nav-toggle.active .barz:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav-toggle.active .barz:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    background-color: #ec4252;
+  }
+
+  .nav-toggle.active .barz:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: #ec5242;
+  }
+
+  .nav-items {
+    margin-top: 1px;
+    gap: 0;
+  }
+
+  .nav-menu a {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .navbar ul {
+    position: fixed;
+    left: -100%;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #ec4252;
+    width: 100%;
+    height: 70%;
+    transition: 0.3s;
+    align-items: flex-start;
+  }
+
+  .nav-item {
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 40px;
+    position: relative;
+    top: 90px;
+    margin-top: 12px;
+  }
+
+  .nav-item a {
+    color: #fff;
+  }
+
+  .navbar ul.active {
+    left: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -435,7 +485,7 @@ body {
     background-size: cover;
   }
 
-  .nav-items {
+  .nav-menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -446,7 +496,7 @@ body {
     top: 50px;
   }
 
-  .nav-items li {
+  .nav-menu li {
     list-style-type: none;
     text-decoration: none;
     font-size: 17px;
@@ -462,12 +512,12 @@ body {
     color: #333;
   }
 
-  .nav-items li a {
+  .nav-menu li a {
     text-decoration: none;
     color: #333;
   }
 
-  .nav-items li a:hover {
+  .nav-menu li a:hover {
     color: rgb(255, 166, 0);
   }
 
