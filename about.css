@@ -49,7 +49,7 @@
     margin-bottom: 70px;
   }
 
-  .KA-logo span {
+  .KA-logo h3 {
     font-family: 'lato', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -70,6 +70,14 @@
     height: 130px;
   }
 
+  .past-events h3 {
+    font-size: 23px;
+    font-family: 'lato', sans-serif;
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+  }
+
   .past {
     font-size: 23px;
     font-family: 'lato', sans-serif;
@@ -80,6 +88,7 @@
 
   .information {
     font-size: 14px;
+    color: #000;
   }
 
   .nav-toggle.active .barz:nth-child(2) {
@@ -227,7 +236,7 @@
     align-items: flex-end;
     gap: 70px;
     position: absolute;
-    right: 30%;
+    right: 14%;
     top: 50px;
   }
 

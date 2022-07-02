@@ -9,12 +9,25 @@
 
 body {
   font-family: 'cocogoose', sans-serif;
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow: scroll;
 }
 
 @media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'cocogoose', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+  }
+
   nav {
     width: 100%;
     height: 70px;
@@ -26,6 +39,10 @@ body {
 
   .page-heading {
     display: none;
+  }
+
+  #program {
+    width: 100%;
   }
 
   .nav-item-border {
@@ -78,14 +95,15 @@ body {
 
   .intro {
     font-family: 'Lato', sans-serif;
-    width: 340px;
-    height: 110px;
+    max-width: 340px;
+    height: 120px;
     font-size: 15px;
     line-height: 20px;
     font-weight: 400;
     border: 3px solid #fff;
     margin-top: 15px;
     background-color: #f7f7f7;
+    margin-bottom: 30px;
   }
 
   .desktop,
@@ -151,18 +169,17 @@ body {
   .cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    width: 348px;
-    height: 70px;
+    max-width: 300px;
+    height: 90px;
     border: none;
-    gap: 20px;
+    gap: 10px;
     color: aliceblue;
     background-color: #5e6c8473;
   }
 
   .card {
-    width: 280px;
+    max-width: 280px;
     height: 50px;
     background-color: orangered;
     color: #f2f3f5;
@@ -416,9 +433,9 @@ body {
     font-weight: 600;
     color: #fff;
     margin-left: 40px;
-    position: relative;
-    top: 90px;
-    margin-top: 12px;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 30px;
   }
 
   .nav-item a {
@@ -459,22 +476,28 @@ body {
   }
 
   .logo {
-    width: 180px;
-    height: 129px;
-    position: absolute;
-    top: 10px;
-    left: 100px;
+    position: fixed;
+    min-width: 196px;
+    height: 100px;
+    z-index: 99999;
+    top: 20px;
+    right: 1000px;
   }
 
   .navbar {
     position: fixed;
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: 100px;
     color: #0060c0;
-    box-shadow: 0 5px 0 0 #fff;
     top: 0;
     background-color: rgb(255, 255, 255);
     z-index: 9;
+  }
+
+  .nav-items li a {
+    margin-left: 200px;
   }
 
   .image {
@@ -488,11 +511,11 @@ body {
   .nav-menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 70px;
+    justify-content: right;
+    align-items: right;
+    gap: 50px;
     position: absolute;
-    right: 30%;
+    right: 20%;
     top: 50px;
   }
 
@@ -501,6 +524,7 @@ body {
     text-decoration: none;
     font-size: 17px;
     font-family: 'lato', sans-serif;
+    padding-bottom: 24px;
   }
 
   .register a {
@@ -522,9 +546,6 @@ body {
   }
 
   .nav-item-border {
-    position: absolute;
-    top: 37px;
-    right: 18%;
     width: 120px;
     height: 50px;
     border: 3px solid #ec5242;
@@ -532,6 +553,8 @@ body {
     font-size: 17px;
     font-family: 'lato', sans-serif;
     padding-top: 10px;
+    position: relative;
+    bottom: 13px;
   }
 
   .content {
@@ -814,7 +837,7 @@ body {
 
   .parent {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 20px;
