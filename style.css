@@ -55,6 +55,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
   }
+
   .nav-items {
     display: none;
   }
@@ -96,19 +97,6 @@ body {
     display: none;
   }
 
-  .intro3 {
-    font-family: 'Lato', sans-serif;
-    width: px;
-    height: 130px;
-    font-size: 13px;
-    text-align: center;
-    line-height: 20px;
-    font-weight: 400;
-    border: 2px solid #abacad;
-    margin-top: 15px;
-    background-color: #fff;
-  }
-
   .contact {
     font-size: 10px;
     text-align: center;
@@ -143,9 +131,6 @@ body {
     gap: 30px;
     margin-top: 10px;
     background-color: #333;
-  }
-
-  .main-program {
     background: url('images/pexels-adrien-olichon-2387793.jpg') no-repeat center
       center fixed;
     -webkit-background-size: cover;
@@ -192,7 +177,7 @@ body {
     background-color: orangered;
     color: #f2f3f5;
     text-align: center;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     margin-bottom: 100px;
   }
 
@@ -734,6 +719,7 @@ body {
     border-bottom: 2px solid #ec5242;
     padding-bottom: 20px;
     font-weight: 600;
+    font-size: 20px;
   }
 
   .partners {
