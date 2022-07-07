@@ -41,6 +41,13 @@ const arrProject = [
     description:
       "He developed several computer operating systems, namely Microsoft's Windows NT, and Digital Equipment Corporation's RSX-11M, VAXELN, and VMS",
   },
+
+  {
+    image: 'images/elon.jpg',
+    name: 'Elon Musk',
+    devInfo: 'Software Developer',
+    description: 'Owner Of Tesla',
+  },
 ];
 
 function addProjects(n) {

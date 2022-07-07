@@ -1,56 +1,51 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# KONTROL+ alt Hackathon
 
-> Description the project.
-
+> Kontrol Alt conference website.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS AND JAVASCRIPT
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mxodevops.github.io/Kontrol-alt/)
 
+- Live Explination of this projects https://www.loom.com/share/aaf051d940244ae0aa491d89659c47ce
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To copy this project please do the following.
 
-
-To get a local copy up and running follow these simple example steps.
+1. Open this project https://github.com/MxoDevops/Kontrol-alt
+2. Navigate to code
+3. Then click "Download ZIP" to save the code locally
 
 ### Prerequisites
 
+To run this project you will need,
+
+1. Visual Studio Code.
+
+2. knowlegde of HTML, CSS & Javascript
+
 ### Setup
+
+1. Open this project on your local machine
+2. Navigate to index.html
+3. Then open it
 
 ### Install
 
-### Usage
+1. install VS code
+2. Install webint and styleint
 
-### Run tests
+👤 **Thokozani Ngubane**
 
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: MxoDevops [https://github.com/MxoDevops]
+- Twitter: @Godecuy [https://twitter.com/Godecuy]
+- LinkedIn: Thokozani Ngubane [https://www.linkedin.com/in/thokozani-ngubane-125b26189/]
 
 ## 🤝 Contributing
 
@@ -64,9 +59,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Cindy Shin in Behance
+  https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 
 ## 📝 License
 

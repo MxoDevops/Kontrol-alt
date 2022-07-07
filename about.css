@@ -1,84 +1,149 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
-.about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 70px;
-  margin-left: 10px;
-  margin-bottom: 100px;
-}
+@media screen and (max-width: 768px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-bottom: 100px;
+  }
 
-.intro3 {
-  font-family: 'Lato', sans-serif;
-  width: 300px;
-  height: 130px;
-  font-size: 13px;
-  text-align: center;
-  line-height: 20px;
-  font-weight: 500;
-  border: 2px solid #fff;
-  margin-top: 15px;
-  background-color: #f7f7f7;
-}
+  .intro3 {
+    font-family: 'Lato', sans-serif;
+    width: 300px;
+    height: 130px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 500;
+    border: 2px solid #fff;
+    margin-top: 15px;
+    background-color: #f7f7f7;
+  }
 
-.contact2 {
-  font-family: 'lato', sans-serif;
-  font-size: 12px;
-  text-align: center;
-  font-weight: 500;
-  color: #5e6c84;
-  margin-top: 20px;
-}
+  .contact2 {
+    font-family: 'lato', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    color: #5e6c84;
+    margin-top: 20px;
+  }
 
-.connect2 {
-  font-family: 'Lato', sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  margin-top: 10px;
-  color: #000;
-}
+  .connect2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #000;
+  }
 
-.KA-logo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 70px;
-}
+  .KA-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+  }
 
-.KA-logo span {
-  font-family: 'lato', sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  color: #000;
-  margin-bottom: 15px;
-}
+  .KA-logo h3 {
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 15px;
+  }
 
-.KA-logo p {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 13px;
-  font-family: 'lato', sans-serif;
-  font-weight: 600;
-}
+  .KA-logo p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: 'lato', sans-serif;
+    font-weight: 600;
+  }
 
-.logo-about {
-  width: 170px;
-  height: 130px;
-}
+  .logo-about {
+    width: 170px;
+    height: 130px;
+  }
 
-.past {
-  font-size: 23px;
-  font-family: 'lato', sans-serif;
-  color: #000;
-  text-align: center;
-  font-weight: 400;
-}
+  .past-events h3 {
+    font-size: 23px;
+    font-family: 'lato', sans-serif;
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+  }
 
-.information {
-  font-size: 14px;
+  .past {
+    font-size: 23px;
+    font-family: 'lato', sans-serif;
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .information {
+    font-size: 14px;
+    color: #000;
+  }
+
+  .nav-toggle.active .barz:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav-toggle.active .barz:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    background-color: #f0efef;
+  }
+
+  .nav-toggle.active .barz:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: #e2e2e2;
+  }
+
+  .nav-items {
+    margin-top: 1px;
+    gap: 0;
+  }
+
+  .nav-menu a {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .navbar ul {
+    position: fixed;
+    left: -100%;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #ec4252;
+    width: 100%;
+    height: 70%;
+    transition: 0.3s;
+    align-items: flex-start;
+  }
+
+  .nav-item {
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 40px;
+    position: relative;
+    top: 90px;
+    margin-top: 12px;
+  }
+
+  .nav-item a {
+    color: #fff;
+  }
+
+  .navbar ul.active {
+    left: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -126,6 +191,7 @@
     font-weight: 700;
     color: #000;
     margin-bottom: 15px;
+    margin-bottom: 160px;
   }
 
   .KA-logo p {
@@ -156,5 +222,28 @@
 
   .information {
     font-size: 14px;
+  }
+
+  .nav-menu a {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 70px;
+    position: absolute;
+    right: 14%;
+    top: 50px;
+  }
+
+  .nav-menu li {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'lato', sans-serif;
   }
 }

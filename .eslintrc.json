@@ -4,6 +4,8 @@
     "es6": true,
     "jest": true
   },
+
+  
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 2018,
@@ -15,6 +17,7 @@
     "object-curly-newline": "off",
     "no-param-reassign": "off",
     "eol-last": "off",
+    "trailingComma": "off",
     "import/extensions": [
       1,
       {
@@ -25,3 +28,4 @@
   },
   "ignorePatterns": ["dist/", "build/"]
 }
+
