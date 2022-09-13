@@ -4,6 +4,12 @@
 
 > Kontrol Alt conference website.
 
+##Screenshot
+
+![image](https://user-images.githubusercontent.com/66553292/189892412-d7c3c173-9fff-4d0d-8fd8-4e5ce08b33a8.png)
+
+
+
 ## Built With
 
 - HTML, CSS AND JAVASCRIPT
