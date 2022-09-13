@@ -4,7 +4,7 @@
 
 > Kontrol Alt conference website.
 
-##Screenshot
+## Screenshot
 
 ![image](https://user-images.githubusercontent.com/66553292/189892412-d7c3c173-9fff-4d0d-8fd8-4e5ce08b33a8.png)
 
@@ -18,7 +18,9 @@
 
 [Live Demo Link](https://mxodevops.github.io/Kontrol-alt/)
 
-- Live Explination of this projects https://www.loom.com/share/aaf051d940244ae0aa491d89659c47ce
+## Live Showcase
+
+https://www.loom.com/share/aaf051d940244ae0aa491d89659c47ce
 
 ## Getting Started
 
